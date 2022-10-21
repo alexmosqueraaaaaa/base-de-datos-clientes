@@ -135,7 +135,7 @@ body{
 }
 
 
-.login-card-form button{
+.login-card-form input[type="button"]{
   background: black;
   color: white;
   padding: 1rem;
@@ -148,29 +148,11 @@ body{
 }
 
 
-.login-card-form button:hover{
-    background-color: rgba(0, 0, 0, .85);
+.login-card-form input[type="button"]:hover{
+    background-color: black;
     cursor: pointer;
 }
-
-.login-card-form button input{
-    background: black;
-    color: white;
-    padding: 1rem;
-    border-radius: 100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: background .5s;
-  
-  
-  }
-
-  .login-card-form button input:hover{
-    background-color: rgba(0, 0, 0, .85);
-    cursor: pointer;
-}
-  
-
+ 
 .login-card-social {
     display: flex;
     flex-direction: column;
